@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validating the Adactin LoginPage",
+        "description": "",
+        "id": "validating-the-booking-function-of-adactinhotel-application;validating-the-adactin-loginpage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10009317500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is open Adactin Page",
+            "match": {
+              "location": "StepReference.user_is_open_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277940200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"premkumar7264\" and \"Sivavis@4437\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "premkumar7264",
+                  "offset": 13
+                },
+                {
+                  "val": "Sivavis@4437",
+                  "offset": 33
+                }
+              ],
+              "location": "StepReference.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1627678400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the login button",
+            "match": {
+              "location": "StepReference.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should verify the login",
+            "match": {
+              "location": "StepReference.user_should_verify_the_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Validating the Search and select hotel test",
+        "description": "",
+        "id": "validating-the-booking-function-of-adactinhotel-application;validating-the-search-and-select-hotel-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1717574500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user select \"Paris\" and \"Hotel Creek\" and \"Double\" and \"1 - One\" and \"1 - One\" and \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paris",
+                  "offset": 13
+                },
+                {
+                  "val": "Hotel Creek",
+                  "offset": 25
+                },
+                {
+                  "val": "Double",
+                  "offset": 43
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 56
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 70
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 84
+                }
+              ],
+              "location": "StepReference.user_select_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click Search",
+            "match": {
+              "location": "StepReference.click_Search()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "select hotel and radiobutton then continue button click",
+        "description": "",
+        "id": "validating-the-booking-function-of-adactinhotel-application;select-hotel-and-radiobutton-then-continue-button-click",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258356100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click the radiobutton and continue button",
+            "match": {
+              "location": "StepReference.click_the_radiobutton_and_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user verify the continue",
+            "match": {
+              "location": "StepReference.user_verify_the_continue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Adhoc"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Validating the Book hotel test",
+        "description": "",
+        "id": "validating-the-booking-function-of-adactinhotel-application;validating-the-book-hotel-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 780867700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user select \"Prem\" and \"Kumar\" and \"India\" and \"4545454565656565\" and \"VISA\" and \"March\" and \"2022\" and \"007\" and click Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prem",
+                  "offset": 13
+                },
+                {
+                  "val": "Kumar",
+                  "offset": 24
+                },
+                {
+                  "val": "India",
+                  "offset": 36
+                },
+                {
+                  "val": "4545454565656565",
+                  "offset": 48
+                },
+                {
+                  "val": "VISA",
+                  "offset": 71
+                },
+                {
+                  "val": "March",
+                  "offset": 82
+                },
+                {
+                  "val": "2022",
+                  "offset": 94
+                },
+                {
+                  "val": "007",
+                  "offset": 105
+                }
+              ],
+              "location": "StepReference.user_select_and_and_and_and_and_and_and_and_click_Search(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67157200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click the BookNow button",
+            "match": {
+              "location": "StepReference.click_the_BookNow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5774703100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user check get order id or not",
+            "match": {
+              "location": "StepReference.user_check_get_order_id_or_not()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "validating the Booking function of AdactinHotel Application",
+    "description": "",
+    "id": "validating-the-booking-function-of-adactinhotel-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/BookingAdactin.feature",
+    "tags": []
+  }
+]

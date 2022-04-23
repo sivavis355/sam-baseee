@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="21.522467">
+<testcase classname="validating the Booking function of AdactinHotel Application" name="Validating the Adactin LoginPage" time="11.922435">
+<system-out><![CDATA[Given user is open Adactin Page.............................................passed
+When user enters "premkumar7264" and "Sivavis@4437".........................passed
+And user should click the login button......................................passed
+Then user should verify the login...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validating the Booking function of AdactinHotel Application" name="Validating the Search and select hotel test" time="1.718138">
+<system-out><![CDATA[Then user select "Paris" and "Hotel Creek" and "Double" and "1 - One" and "1 - One" and "1 - One".passed
+And click Search............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validating the Booking function of AdactinHotel Application" name="select hotel and radiobutton then continue button click" time="1.258779">
+<system-out><![CDATA[Then click the radiobutton and continue button..............................passed
+And user verify the continue................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validating the Booking function of AdactinHotel Application" name="Validating the Book hotel test" time="6.623115">
+<system-out><![CDATA[Then user select "Prem" and "Kumar" and "India" and "4545454565656565" and "VISA" and "March" and "2022" and "007" and click Search.passed
+Then click the BookNow button...............................................passed
+And user check get order id or not..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
